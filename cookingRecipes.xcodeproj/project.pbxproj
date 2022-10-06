@@ -11,10 +11,10 @@
 		7B629DE028EEDFEE00D18855 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B629DDF28EEDFEE00D18855 /* ContentView.swift */; };
 		7B629DE228EEDFEF00D18855 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7B629DE128EEDFEF00D18855 /* Assets.xcassets */; };
 		7B629DE528EEDFEF00D18855 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7B629DE428EEDFEF00D18855 /* Preview Assets.xcassets */; };
-		7B629DEF28EEE04F00D18855 /* Recipe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B629DEE28EEE04F00D18855 /* Recipe.swift */; };
 		7B629DF228EF019400D18855 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 7B629DF428EF019400D18855 /* Localizable.strings */; };
 		7B629DFA28EF06B100D18855 /* Localizable.stringsdict in Resources */ = {isa = PBXBuildFile; fileRef = 7B629DF928EF06B100D18855 /* Localizable.stringsdict */; };
 		7B629DFC28EF201800D18855 /* UserModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B629DFB28EF201800D18855 /* UserModel.swift */; };
+		7B629E0028EF206700D18855 /* RecipeModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B629DFF28EF206700D18855 /* RecipeModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,13 +23,13 @@
 		7B629DDF28EEDFEE00D18855 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		7B629DE128EEDFEF00D18855 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7B629DE428EEDFEF00D18855 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		7B629DEE28EEE04F00D18855 /* Recipe.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Recipe.swift; sourceTree = "<group>"; };
 		7B629DF328EF019400D18855 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
 		7B629DF528EF01EE00D18855 /* fr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = fr; path = fr.lproj/Localizable.strings; sourceTree = "<group>"; };
 		7B629DF628EF01F400D18855 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/Localizable.strings"; sourceTree = "<group>"; };
 		7B629DF728EF01FA00D18855 /* de */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = de; path = de.lproj/Localizable.strings; sourceTree = "<group>"; };
 		7B629DF928EF06B100D18855 /* Localizable.stringsdict */ = {isa = PBXFileReference; lastKnownFileType = text.plist.stringsdict; path = Localizable.stringsdict; sourceTree = "<group>"; };
 		7B629DFB28EF201800D18855 /* UserModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserModel.swift; sourceTree = "<group>"; };
+		7B629DFF28EF206700D18855 /* RecipeModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,7 +86,7 @@
 		7B629DEB28EEDFFF00D18855 /* Models */ = {
 			isa = PBXGroup;
 			children = (
-				7B629DEE28EEE04F00D18855 /* Recipe.swift */,
+				7B629DFF28EF206700D18855 /* RecipeModel.swift */,
 				7B629DFB28EF201800D18855 /* UserModel.swift */,
 			);
 			path = Models;
@@ -189,8 +189,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7B629DEF28EEE04F00D18855 /* Recipe.swift in Sources */,
 				7B629DE028EEDFEE00D18855 /* ContentView.swift in Sources */,
+				7B629E0028EF206700D18855 /* RecipeModel.swift in Sources */,
 				7B629DFC28EF201800D18855 /* UserModel.swift in Sources */,
 				7B629DDE28EEDFEE00D18855 /* cookingRecipesApp.swift in Sources */,
 			);
