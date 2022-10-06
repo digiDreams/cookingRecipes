@@ -1,0 +1,11 @@
+/* 
+  Localizable.strings
+  cookingRecipes
+
+  Created by Apprenant 16 on 06/10/2022.
+  
+*/
+
+"Recipe.Difficulty.easy" = "Einfach";
+"Recipe.Difficulty.average" = "Durchschnitt";
+"Recipe.Difficulty.hard" = "Schwer";

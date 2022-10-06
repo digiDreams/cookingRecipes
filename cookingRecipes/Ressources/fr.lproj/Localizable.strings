@@ -1,0 +1,13 @@
+/* 
+  Localizable.strings
+  cookingRecipes
+
+  Created by Apprenant 16 on 06/10/2022.
+  
+*/
+
+//"Recipe.Difficulty.easy" = "Facile"; // String de référence, clé. En fin de chaîne toujours un ;.
+
+"Recipe.RecipesDifficulties.easy" = "Facile";
+"Recipe.RecipesDifficulties.average" = "Moyen";
+"Recipe.RecipesDifficulties.hard" = "Difficile";
