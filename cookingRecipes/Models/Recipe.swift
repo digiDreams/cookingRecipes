@@ -23,7 +23,7 @@ struct Recipe: Identifiable {
     let cookingTime: Int
     let difficultyLevel: RecipesDifficulties
     // Ingrédients
-    let price: Double
+    let cost: Double
     
     //    func getDifficulty(difficulty: RecipesDifficulties) -> String {
     //        switch difficulty {
