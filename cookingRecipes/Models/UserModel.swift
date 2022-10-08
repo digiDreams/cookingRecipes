@@ -10,5 +10,9 @@ import Foundation
 struct User {
     let id: Int
     let name: String
-    let favorites: Bool
+    let favorites: [Favorites]
+}
+
+struct Favorites {
+    let favorite: [Recipe]
 }

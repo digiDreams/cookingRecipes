@@ -19,6 +19,7 @@ struct Recipe: Identifiable {
         case euro = "EUR"
         case dollar = "USD"
         case yuanRMB = "RMB"
+        case gbPound = "£"
     }
     let id: Int
     let name: String

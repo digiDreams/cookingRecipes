@@ -15,6 +15,7 @@
 		7B629DFA28EF06B100D18855 /* Localizable.stringsdict in Resources */ = {isa = PBXBuildFile; fileRef = 7B629DF928EF06B100D18855 /* Localizable.stringsdict */; };
 		7B629DFC28EF201800D18855 /* UserModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B629DFB28EF201800D18855 /* UserModel.swift */; };
 		7B629E0028EF206700D18855 /* RecipeModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B629DFF28EF206700D18855 /* RecipeModel.swift */; };
+		7B629E0228EF259500D18855 /* RecipeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B629E0128EF259500D18855 /* RecipeViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +31,7 @@
 		7B629DF928EF06B100D18855 /* Localizable.stringsdict */ = {isa = PBXFileReference; lastKnownFileType = text.plist.stringsdict; path = Localizable.stringsdict; sourceTree = "<group>"; };
 		7B629DFB28EF201800D18855 /* UserModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserModel.swift; sourceTree = "<group>"; };
 		7B629DFF28EF206700D18855 /* RecipeModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeModel.swift; sourceTree = "<group>"; };
+		7B629E0128EF259500D18855 /* RecipeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = RecipeViewModel.swift; path = cookingRecipes/ViewModels/RecipeViewModel.swift; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,6 +104,7 @@
 		7B629DED28EEE01900D18855 /* ViewModels */ = {
 			isa = PBXGroup;
 			children = (
+				7B629E0128EF259500D18855 /* RecipeViewModel.swift */,
 			);
 			path = ViewModels;
 			sourceTree = "<group>";
@@ -192,6 +195,7 @@
 				7B629DE028EEDFEE00D18855 /* ContentView.swift in Sources */,
 				7B629E0028EF206700D18855 /* RecipeModel.swift in Sources */,
 				7B629DFC28EF201800D18855 /* UserModel.swift in Sources */,
+				7B629E0228EF259500D18855 /* RecipeViewModel.swift in Sources */,
 				7B629DDE28EEDFEE00D18855 /* cookingRecipesApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
